@@ -21,19 +21,22 @@ The human eye is capable of recognising, localising the features and classifying
 
 ## Approach
 ---
-
+- Dataset
+- Data Augmentation
+- Model Architecture
 
 
 ## Results
 ---
 - Entropy Loss Graph 
-<img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_accuracy_loss_vs_epoch.jpeg">
+<img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_accuracy_loss_vs_epoch.jpeg" width="100" height="100">
+
  
 - Learning Rate Graph
-<img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_learning_rate.png">
+<img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_learning_rate.png" width="100" height="100">
  
 - Momentum Graph
-<img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_momentum.png">
+<img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_momentum.png" width="100" height="100">
 
 
 ## Platform
