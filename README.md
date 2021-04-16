@@ -22,7 +22,7 @@ The human eye is capable of recognising, localising the features and classifying
 ## Approach
 ---
 - Dataset<br/>
-<img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/dataset.jpg" width="200" height="200" style="vertical-align:middle;margin:0px 50px">
+<img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/Dataset_images.JPG" width="200" height="200" style="vertical-align:middle;margin:50px 50px">
 The dataset is of caltech_birds 2010. The caltech-UCSD Birds 200(CUB-200) consists of 200 categories of bird images. There are total 6033 images with annotations containing bounding boxes and segmentation labels.
 
 - Data Preprcoessing <br/>
@@ -36,7 +36,7 @@ For a single image, augmentation in form of:<br/>
     - Adjusting the image brightness to 0.2<br/>
     - Cropping the image to 0.5<br/>
     - Rotating the image several times by 90 degree<br/>
-After these many types of augmentation, for every image about 7 new images are generated. In total around $\boldsymbol{50,000}$ new images are generated and the dataset is expanded.
+After these many types of augmentation, for every image about 7 new images are generated. In total around 50,000 new images are generated and the dataset is expanded.
 
 - Model Architecture
 <table>
@@ -45,8 +45,8 @@ After these many types of augmentation, for every image about 7 new images are g
      <td>Model Summary</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/CNN_architecture.jpg" width=270 height=480></td>
-    <td><img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_summary.jpg" width=270 height=480></td>
+    <td><img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/CNN_architecture.JPG" width=270 height=300></td>
+    <td><img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_summary.JPG" width=270 height=300></td>
   </tr>
  </table>
 As shown in the above figure,
@@ -78,8 +78,8 @@ This shows the curve depicting the relation between the training and testing los
      <td>Momentum</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_learning_rate.png" width=270 height=480></td>
-    <td><img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_momentum.png" width=270 height=480></td>
+    <td><img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_learning_rate.png" width=270 height=300></td>
+    <td><img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_momentum.png" width=270 height=300></td>
   </tr>
  </table>
 The model with learning rate value of 0.1 or momentum value of 0.9 provides better results as compared to that model with learning rate and momentum combination which was even better compared to using the adam optimiser. The reason for choosing this values is that if the value chosen is too high then the model will learn quiclky and predicts the results quickly leading to misclassification and if value chosen is too low then the model may stop learning and may not be able to predict the results.
@@ -126,4 +126,4 @@ Understanding Convolutional Neural Networks with A Mathematical Model.]()
 ## Contributors
 ---
 
-| [Dipika Pawar](https://github.com/DipikaPawar12)                                                                                                            | [Aanshi Patwari](https://github.com/aanshi18)                                                                                                           
+| [Dipika Pawar](https://github.com/DipikaPawar12)                                                                                                            | [Aanshi Patwari](https://github.com/aanshi18) |                                                                                                          
