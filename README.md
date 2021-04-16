@@ -11,7 +11,7 @@
 - [Approach](#Approach)
 - [Results](#Results)
 - [Platform](#Platform)
-- [Installation guidelines](#Installation guidelines)
+- [Installation guidelines](#Installation-guidelines)
 - [References](#References)
 - [Contributors](#Contributors)
 
@@ -26,6 +26,14 @@ The human eye is capable of recognising, localising the features and classifying
 
 ## Results
 ---
+- Entropy Loss Graph 
+<img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_accuracy_loss_vs_epoch.jpeg">
+ 
+- Learning Rate Graph
+<img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_learning_rate.png">
+ 
+- Momentum Graph
+<img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_momentum.png">
 
 
 ## Platform
