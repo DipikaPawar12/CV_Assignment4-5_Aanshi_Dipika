@@ -22,7 +22,7 @@ The human eye is capable of recognising, localising the features and classifying
 ## Approach
 ---
 - Dataset<br/>
-
+<img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/dataset.jpg" width="200" height="200" style="vertical-align:middle;margin:0px 50px">
 The dataset is of caltech_birds 2010. The caltech-UCSD Birds 200(CUB-200) consists of 200 categories of bird images. There are total 6033 images with annotations containing bounding boxes and segmentation labels.
 
 - Data Preprcoessing <br/>
@@ -39,18 +39,27 @@ For a single image, augmentation in form of:<br/>
 After these many types of augmentation, for every image about 7 new images are generated. In total around $\boldsymbol{50,000}$ new images are generated and the dataset is expanded.
 
 - Model Architecture
-
+<table>
+  <tr>
+    <td>Architecture</td>
+     <td>Model Summary</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/CNN_architecture.jpg" width=270 height=480></td>
+    <td><img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_summary.jpg" width=270 height=480></td>
+  </tr>
+ </table>
 As shown in the above figure,
-    - We have used stride length instead of pooling because there is more information loss in using the pooling function.
-    - Kernel size have been taken in order of 3, 5 and 3 in order to fetch the local features first, then the global features and then the remaining features so none of the features left untouched.
-    - ReLU is used because as compared to tanh, sigmoid functions as it provides more generalisation accuracy.
-    - Number of kernels have been taken in order of 64, 128, 64 as in some research work there is description that generally the number of filters are increased in first to maintain the spatial dimensions and then decreased to capture the important minute features.
-    - Batch Normalisation is used so that in less number of epochs it provides more acceleration to training process.
-    - More number of dropouts in the CNN layers increase the chances of making the learning process slow as more number of neurons freezes. So, we have used dropout only in the final layer with minimal value so that neither it makes the learning slow nor leads to overfitting.
-    - The Flatten layer is used to convert the 2D matrix into 1D vector form. 
-    - The dense layer after the flatten layer is used to connect the vector column to the neuron for final classification.
-    - For final classification, mainly softmax activation function is used as it provides us with the probability that an input image belongs to a certain class with certain probability.
-    - The final dense layer shape is of 200 such that it can predict the label of the input image from 200 categories available in the dataset.
+    - We have used stride length instead of pooling because there is more information loss in using the pooling function.<br/>
+    - Kernel size have been taken in order of 3, 5 and 3 in order to fetch the local features first, then the global features and then the remaining features so none of the features left untouched.<br/>
+    - ReLU is used because as compared to tanh, sigmoid functions as it provides more generalisation accuracy.<br/>
+    - Number of kernels have been taken in order of 64, 128, 64 as in some research work there is description that generally the number of filters are increased in first to maintain the spatial dimensions and then decreased to capture the important minute features.<br/>
+    - Batch Normalisation is used so that in less number of epochs it provides more acceleration to training process.<br/>
+    - More number of dropouts in the CNN layers increase the chances of making the learning process slow as more number of neurons freezes. So, we have used dropout only in the final layer with minimal value so that neither it makes the learning slow nor leads to overfitting.<br/>
+    - The Flatten layer is used to convert the 2D matrix into 1D vector form.<br/> 
+    - The dense layer after the flatten layer is used to connect the vector column to the neuron for final classification.<br/>
+    - For final classification, mainly softmax activation function is used as it provides us with the probability that an input image belongs to a certain class with certain probability.<br/>
+    - The final dense layer shape is of 200 such that it can predict the label of the input image from 200 categories available in the dataset.<br/>
 
 
 ## Results
@@ -62,11 +71,17 @@ The accuracy of the training dataset is about 99\% while the accuracy of the tes
 <img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_accuracy_loss_vs_epoch.jpeg" width="200" height="200" style="vertical-align:middle;margin:0px 50px">
 This shows the curve depicting the relation between the training and testing loss with the number of epochs as well as the relation between the training and testing accuracy with the number of epochs.
  
-- Learning Rate and Momentum Graph
-<p float="left">
-<img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_learning_rate.png" width="200" height="200" style="vertical-align:middle;margin:0px 50px">
-<img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_momentum.png" width="200" height="200" style="vertical-align:middle;margin:0px 50px">
-</p>
+- Graphs
+<table>
+  <tr>
+    <td>Learning Rate</td>
+     <td>Momentum</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_learning_rate.png" width=270 height=480></td>
+    <td><img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_momentum.png" width=270 height=480></td>
+  </tr>
+ </table>
 The model with learning rate value of 0.1 or momentum value of 0.9 provides better results as compared to that model with learning rate and momentum combination which was even better compared to using the adam optimiser. The reason for choosing this values is that if the value chosen is too high then the model will learn quiclky and predicts the results quickly leading to misclassification and if value chosen is too low then the model may stop learning and may not be able to predict the results.
 
 ## Platform
@@ -78,7 +93,7 @@ The model with learning rate value of 0.1 or momentum value of 0.9 provides bett
 ---
 - To clone this repository
  ```
-git clone ___
+git clone ""
  ```
 - To install the requirements
 ```
