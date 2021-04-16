@@ -22,7 +22,9 @@ The human eye is capable of recognising, localising the features and classifying
 ## Approach
 ---
 - Dataset<br/>
-<img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/Dataset_images.JPG" width="200" height="200" style="vertical-align:middle;margin:50px 50px">
+ <p align="center">
+<img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/Dataset_images.JPG" width="300" height="300" style="vertical-align:middle;margin:50px 50px">
+ </p>
 The dataset is of caltech_birds 2010. The caltech-UCSD Birds 200(CUB-200) consists of 200 categories of bird images. There are total 6033 images with annotations containing bounding boxes and segmentation labels.
 
 - Data Preprcoessing <br/>
@@ -45,8 +47,8 @@ After these many types of augmentation, for every image about 7 new images are g
      <td>Model Summary</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/CNN_architecture.JPG" width=270 height=300></td>
-    <td><img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_summary.JPG" width=270 height=300></td>
+    <td><img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/CNN_architecture.JPG" width=300 height=300></td>
+    <td><img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_summary.JPG" width=300 height=300></td>
   </tr>
  </table>
 As shown in the above figure,
@@ -68,7 +70,9 @@ As shown in the above figure,
 The accuracy of the training dataset is about 99\% while the accuracy of the testing dataset is about 55\%. This accuracy is due to large number of classes(200) available for classification due to which it leads to high chances of misclassification which in turn which less accurate results.
 
 - Entropy Loss Graph 
-<img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_accuracy_loss_vs_epoch.jpeg" width="200" height="200" style="vertical-align:middle;margin:0px 50px">
+<p align="center">
+<img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_accuracy_loss_vs_epoch.jpeg" width="300" height="300" style="vertical-align:middle;margin:0px 50px">
+</p>
 This shows the curve depicting the relation between the training and testing loss with the number of epochs as well as the relation between the training and testing accuracy with the number of epochs.
  
 - Graphs
@@ -78,8 +82,8 @@ This shows the curve depicting the relation between the training and testing los
      <td>Momentum</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_learning_rate.png" width=270 height=300></td>
-    <td><img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_momentum.png" width=270 height=300></td>
+    <td><img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_learning_rate.png" width=300 height=300></td>
+    <td><img src="https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika/blob/master/images/model_momentum.png" width=300 height=300></td>
   </tr>
  </table>
 The model with learning rate value of 0.1 or momentum value of 0.9 provides better results as compared to that model with learning rate and momentum combination which was even better compared to using the adam optimiser. The reason for choosing this values is that if the value chosen is too high then the model will learn quiclky and predicts the results quickly leading to misclassification and if value chosen is too low then the model may stop learning and may not be able to predict the results.
@@ -93,7 +97,7 @@ The model with learning rate value of 0.1 or momentum value of 0.9 provides bett
 ---
 - To clone this repository
  ```
-git clone ""
+git clone https://github.com/DipikaPawar12/CV_Assignment4-5_Aanshi_Dipika.git
  ```
 - To install the requirements
 ```
@@ -112,14 +116,14 @@ pip install -q tfds-nightly tensorflow matplotlib
 - <a id="4">[4]</a> 
 [F. Sultana, A. Sufian, and P. Dutta,
 Advancements in Image Classification using Convolutional Neural Network,
-2018 Fourth International Conference on Research in Computational Intelligence and Communication Networks (ICRCICN).]()
+2018 Fourth International Conference on Research in Computational Intelligence and Communication Networks (ICRCICN).](https://ieeexplore.ieee.org/document/8718718)
 - <a id="5">[5]</a> 
 [Dan C. Cires ̧an, Ueli Meier, Jonathan Masci, Luca M. Gambardella, and Jurgen Schmidhuber, 
 Flexible, High Performance Convolutional Neural Networks for Image Classification,
-International Joint Conference on Artificial Intelligence.]()
+International Joint Conference on Artificial Intelligence.](https://dl.acm.org/doi/10.5555/2283516.2283603)
 - <a id="6">[6]</a> 
 [C.-C. Jay Kuo,
-Understanding Convolutional Neural Networks with A Mathematical Model.]()
+Understanding Convolutional Neural Networks with A Mathematical Model.](https://www.sciencedirect.com/science/article/abs/pii/S1047320316302267)
 
 
 
