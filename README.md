@@ -110,18 +110,18 @@ pip install -q tfds-nightly tensorflow matplotlib
 
 ## References
 ---
-- <a id="1">[1]</a> [Dataset](https://www.tensorflow.org/datasets/overview)
-- <a id="2">[2]</a>  [Data Augmentation](https://www.tensorflow.org/tutorials/images/data_augmentation)
-- <a id="3">[3]</a> [The Complete Beginner's Guide to Deep Learning: Convolutional Neural Networks](https://towardsdatascience.com/wtf-is-image-classification-8e78a8235acb)
-- <a id="4">[4]</a> 
+<a id="1">[1]</a> [Dataset](https://www.tensorflow.org/datasets/overview)
+<a id="2">[2]</a>  [Data Augmentation](https://www.tensorflow.org/tutorials/images/data_augmentation)
+<a id="3">[3]</a> [The Complete Beginner's Guide to Deep Learning: Convolutional Neural Networks](https://towardsdatascience.com/wtf-is-image-classification-8e78a8235acb)
+<a id="4">[4]</a> 
 [F. Sultana, A. Sufian, and P. Dutta,
 Advancements in Image Classification using Convolutional Neural Network,
 2018 Fourth International Conference on Research in Computational Intelligence and Communication Networks (ICRCICN).](https://ieeexplore.ieee.org/document/8718718)
-- <a id="5">[5]</a> 
+<a id="5">[5]</a> 
 [Dan C. Cires ̧an, Ueli Meier, Jonathan Masci, Luca M. Gambardella, and Jurgen Schmidhuber, 
 Flexible, High Performance Convolutional Neural Networks for Image Classification,
 International Joint Conference on Artificial Intelligence.](https://dl.acm.org/doi/10.5555/2283516.2283603)
-- <a id="6">[6]</a> 
+<a id="6">[6]</a> 
 [C.-C. Jay Kuo,
 Understanding Convolutional Neural Networks with A Mathematical Model.](https://www.sciencedirect.com/science/article/abs/pii/S1047320316302267)
 
